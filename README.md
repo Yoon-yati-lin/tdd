@@ -6,9 +6,10 @@ A Claude Code skill that guides you through strict **Test-Driven Development** u
 
 ```
 /tdd path/to/plan.md
+/tdd "add user authentication with JWT and refresh tokens"
 ```
 
-Provide a markdown file describing the feature you want to build. The skill will break it into small, testable increments and walk you through TDD for each one.
+Provide either a markdown plan file or an inline description of the feature you want to build. The skill will break it into small, testable increments and walk you through TDD for each one.
 
 ## How It Works
 

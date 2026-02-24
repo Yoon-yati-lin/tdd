@@ -1,9 +1,9 @@
 ---
 skill: tdd
-trigger: "Use when the user invokes /tdd or asks to do TDD on a feature/plan file. Guides the developer through Red-Green-Refactor cycles."
+trigger: "Use when the user invokes /tdd or asks to do TDD on a feature. Accepts a plan file path or an inline feature description. Guides the developer through Red-Green-Refactor cycles."
 arguments:
-  - name: plan_file
-    description: "Path to a markdown file describing the feature/plan to implement via TDD"
+  - name: input
+    description: "Either a path to a markdown plan file OR an inline description of the feature to implement via TDD (e.g., '/tdd plan.md' or '/tdd add JWT authentication with refresh tokens')"
 ---
 
 # TDD Skill — Red-Green-Refactor
@@ -12,7 +12,9 @@ You are guiding the developer through strict Test-Driven Development. You write 
 
 ## Phase 1: Setup
 
-1. Read the plan/feature file the user provided.
+1. Determine the input type:
+   - **If the input is a file path** (ends in `.md`, `.txt`, or exists on disk): read the plan file.
+   - **If the input is an inline description** (e.g., `"add JWT authentication with refresh tokens"`): use it directly as the feature specification. Ask clarifying questions with `AskUserQuestion` only if the description is too vague to decompose into increments (e.g., "build an app"). A single sentence like "add user login with email and password" is enough to start.
 2. Detect the language and test framework from the project. If ambiguous, ask:
    - Python → pytest
    - TypeScript → vitest
